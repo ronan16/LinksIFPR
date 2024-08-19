@@ -30,6 +30,12 @@ function App() {
       editalLink: artePDF,
     },
     {
+      name: "Biologia Ilustrada",
+      image: arte, // Usando a imagem importada
+      inscricaoLink: "https://forms.gle/a4RXQs3Tpbc9fYsCA",
+      editalLink: artePDF,
+    },
+    {
       name: "Confraria do Vale do Ivaí",
       image: confraria, // Usando a imagem importada
       inscricaoLink: "https://forms.gle/YrNUPiu9ew8ETnzf9",
