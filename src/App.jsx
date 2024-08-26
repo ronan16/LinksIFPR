@@ -9,6 +9,7 @@ import empatia from "./assets/img/empatia.png";
 import sustentabilidade from "./assets/img/sustentabilidade.png";
 import gaepe from "./assets/img/gaepe.png";
 import desidratador from "./assets/img/desidratador.png";
+import grupo from "./assets/img/grupo.png";
 
 // Importando PDF
 import artePDF from "./assets/pdf/EditalArte.pdf";
@@ -17,6 +18,7 @@ import empatiaPDF from "./assets/pdf/EditalEmpatia.pdf";
 import sustentabilidadePDF from "./assets/pdf/EditalSustentabilidade.pdf";
 import gaepePDF from "./assets/pdf/EditalGAEPE.pdf";
 import desidratadorPDF from "./assets/pdf/EditalDesidratador.pdf";
+import grupoPDF from "./assets/pdf/EditalGrupo.pdf";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -62,6 +64,12 @@ function App() {
       image: desidratador, // Usando a imagem importada
       inscricaoLink: "https://forms.gle/7tRWhsc6hHreWtfC6",
       editalLink: desidratadorPDF,
+    },
+    {
+      name: "Desidratador de frutas à luz solar",
+      image: grupo, // Usando a imagem importada
+      inscricaoLink: "https://forms.gle/ZLTq3gGxbhKxEGzD8",
+      editalLink: grupoPDF,
     },
     // Adicione mais projetos conforme necessário
   ];
