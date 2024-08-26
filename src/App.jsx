@@ -66,7 +66,7 @@ function App() {
       editalLink: desidratadorPDF,
     },
     {
-      name: "Desidratador de frutas à luz solar",
+      name: "GEPROI",
       image: grupo, // Usando a imagem importada
       inscricaoLink: "https://forms.gle/ZLTq3gGxbhKxEGzD8",
       editalLink: grupoPDF,
