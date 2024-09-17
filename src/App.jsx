@@ -12,6 +12,8 @@ import desidratador from "./assets/img/desidratador.png";
 import grupo from "./assets/img/grupo.png";
 import bullying from "./assets/img/bullying.png";
 import galif from "./assets/img/galif.png";
+import estacao from "./assets/img/estacao.png";
+
 // Importando PDF
 import artePDF from "./assets/pdf/EditalArte.pdf";
 import confrariaPDF from "./assets/pdf/EditalConfraria.pdf";
@@ -22,6 +24,7 @@ import desidratadorPDF from "./assets/pdf/EditalDesidratador.pdf";
 import grupoPDF from "./assets/pdf/EditalGrupo.pdf";
 import bullyingPDF from "./assets/pdf/EditalBullying.pdf";
 import galifPDF from "./assets/pdf/EditalGalif.pdf";
+import estacaoPDF from "./assets/pdf/EditalEstacao.pdf";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -85,6 +88,12 @@ function App() {
       image: bullying, // Usando a imagem importada
       inscricaoLink: "https://forms.gle/EbLBpZ2PWTxQUshu7",
       editalLink: bullyingPDF,
+    },
+    {
+      name: "Instalação e coleta de dados de uma estação meteorológica automática",
+      image: estacao, // Usando a imagem importada
+      inscricaoLink: "https://forms.gle/HBPRSHqJsdm2ibFTA",
+      editalLink: estacaoPDF,
     },
     // Adicione mais projetos conforme necessário
   ];
