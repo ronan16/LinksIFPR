@@ -14,6 +14,8 @@ import bullying from "./assets/img/bullying.png";
 import galif from "./assets/img/galif.png";
 import estacao from "./assets/img/estacao.png";
 import geproi from "./assets/img/geproi.png";
+import cana from "./assets/img/cana.png";
+
 
 // Importando PDF
 import artePDF from "./assets/pdf/EditalArte.pdf";
@@ -27,6 +29,8 @@ import bullyingPDF from "./assets/pdf/EditalBullying.pdf";
 import galifPDF from "./assets/pdf/EditalGalif.pdf";
 import estacaoPDF from "./assets/pdf/EditalEstacao.pdf";
 import geproiPDF from "./assets/pdf/EditalGeproi.pdf";
+import canaPDF from "./assets/pdf/EditalCana.pdf";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -102,6 +106,12 @@ function App() {
       image: geproi, // Usando a imagem importada
       inscricaoLink: "https://forms.gle/ZLTq3gGxbhKxEGzD8",
       editalLink: geproiPDF,
+    },
+    {
+      name: "Sorgo-Energia como cultura complementar à Cana-de-açúcar",
+      image: geproi, // Usando a imagem importada
+      inscricaoLink: "https://forms.gle/HBPRSHqJsdm2ibFTA",
+      editalLink: canaPDF,
     },
     // Adicione mais projetos conforme necessário
   ];
