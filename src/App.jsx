@@ -15,7 +15,7 @@ import galif from "./assets/img/galif.png";
 import estacao from "./assets/img/estacao.png";
 import geproi from "./assets/img/geproi.png";
 import cana from "./assets/img/cana.png";
-
+import especial from "./assets/img/especial.png";
 
 // Importando PDF
 import artePDF from "./assets/pdf/EditalArte.pdf";
@@ -30,7 +30,7 @@ import galifPDF from "./assets/pdf/EditalGalif.pdf";
 import estacaoPDF from "./assets/pdf/EditalEstacao.pdf";
 import geproiPDF from "./assets/pdf/EditalGeproi.pdf";
 import canaPDF from "./assets/pdf/EditalCana.pdf";
-
+import especialPDF from "./assets/pdf/especialPDF.pdf";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -82,7 +82,7 @@ function App() {
       image: grupo, // Usando a imagem importada
       inscricaoLink: "https://forms.gle/ZLTq3gGxbhKxEGzD8",
       editalLink: grupoPDF,
-    },*/
+    },
     {
       name: "GaLiF: Grupo de Assessoria Linguística do IFPR",
       image: galif, // Usando a imagem importada
@@ -112,6 +112,12 @@ function App() {
       image: geproi, // Usando a imagem importada
       inscricaoLink: "https://forms.gle/HBPRSHqJsdm2ibFTA",
       editalLink: canaPDF,
+    },*/
+    {
+      name: " Inscrição para bolsista de Educação Especial",
+      image: especial, // Usando a imagem importada
+      inscricaoLink: "https://forms.gle/FMXDDPtrNeBJ2ksV9",
+      editalLink: especialPDF,
     },
     // Adicione mais projetos conforme necessário
   ];
